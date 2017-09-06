@@ -13,7 +13,9 @@ with open('HISTORY.rst') as history_file:
 
 requirements = [
     'Click>=6.0',
-    # TODO: put package requirements here
+    'Botocore>=1.7.4',
+    'tqdm>=4.15.0',
+    'datetime',
 ]
 
 setup_requirements = [
