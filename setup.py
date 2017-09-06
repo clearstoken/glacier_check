@@ -28,7 +28,7 @@ test_requirements = [
 
 setup(
     name='glacier_check',
-    version='0.1.0',
+    version='1.0.0',
     description="Use Glacier Check to confirm that the checksums of local files match the checksums of files archived in an Amazon Glacier vault.",
     long_description=readme + '\n\n' + history,
     author="Matthew Andres Moreno",
