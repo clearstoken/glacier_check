@@ -41,7 +41,7 @@ def load_inventory(local_dir, filename):
     try:
         with open(os.path.join(local_dir, filename), 'r') as inv_file:
             data = json.load(inv_file)
-    except IOError:
+    except (IOError, ValueError):
         data = {'ArchiveList': [] }
 
     return data
